@@ -1,6 +1,6 @@
 output "az_vnet_name" { 
   description = "Name of the Created vnet"
-  value       = azurerm_virtual_network.az_vnet_name.name
+  value       = azurerm_virtual_network.myvnet.name
 }
 output "az_vnet_id"{
   description = "Virtual Network ID"
